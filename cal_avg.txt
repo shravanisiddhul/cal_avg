@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+ 
+int main() {
+   int num1, num_2,num_3;
+   cout << "Enter num1 : ";
+   cin >> num1;
+ 
+   
+   cout << "Enter num_2 : ";
+   cin >> num_2;
+ 
+   
+   cout << "Enter num_3 : ";
+   cin >> num_3;
+    
+   float average = (num1 + num_2 + num_3) / 3;
+   cout << "Average : " << average << endl;
+}
